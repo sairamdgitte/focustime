@@ -54,6 +54,7 @@ export const Timer = ({ focusSubject, clearSubject, onTimerEnd }) => {
           style={{ height: spacing.sm }}
         />
       </View>
+      
       <View style={styles.timingWrapper}>
         <Timing onChangeTime={setMinutes} />
       </View>
